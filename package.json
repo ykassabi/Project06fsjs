@@ -1,0 +1,17 @@
+{
+  "name": "Project06fsjs",
+  "version": "1.0.0",
+  "description": "scraper app, goes to an ecommerce site to get the latest prices and save them to a spreadsheet (CSV format).",
+  "main": "scraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node scraper.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.88.0"
+  }
+}
